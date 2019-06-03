@@ -1,4 +1,59 @@
-#panel
+#titlepanel
 {
-    background-color: blue;
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    position:relative;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+#bg_image
+{
+    background-image: url("images/norwaywallpaper.jpg");
+    filter:blur(6px);
+    -webkit-filter: blur(6px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#mainpanel
+{
+    z-index: 3;
+    position: absolute;
+    background-color: black;
+    height: 98%;
+    top:1%;
+    width: 70%;
+    right:0.5%;
+    bottom:1%;
+    border: 1px solid black;
+}
+#introduction
+{
+    z-index: 2;
+    position:absolute;
+    top:50%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom:50px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+#Title{
+    padding:10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 60px;
+}
+#TitleDescription{
+    color: white;
+    background-color: black;
+    text-align:center;
+    font-size: 30px;
 }
