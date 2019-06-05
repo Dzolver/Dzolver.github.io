@@ -14,9 +14,7 @@ html, body{
 }
 #bg_image
 {
-    background-image: url("images/norwaywallpaper.jpg");
-    filter:blur(6px);
-    -webkit-filter: blur(6px);
+    background-image: url("images/desert2.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
