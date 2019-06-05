@@ -49,11 +49,12 @@
     text-align: center;
     color: white;
     background-color: black;
-    font-size: 60px;
+    font-size: 3vw;
+
 }
 #TitleDescription{
     color: white;
     background-color: black;
     text-align:center;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
