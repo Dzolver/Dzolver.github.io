@@ -87,7 +87,6 @@ html, body{
     height:85%;
     width:100%;
     border: 1px solid white;
-    background-color: yellow;
     position:relative;
 }
 #projectsDiv{
@@ -107,7 +106,7 @@ html, body{
     overflow-y: hidden;
     height: 100%;
     scroll-snap-type: x mandatory;
-    background-color:green;
+    background-color:black;
 }
 .scrolling-wrapper::-webkit-scrollbar{
     display:none;
