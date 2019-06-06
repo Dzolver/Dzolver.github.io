@@ -63,7 +63,7 @@ html, body{
 {
     height:100%;
     width:100%;
-    background-color: black;
+    background-color:black;
 }
 #section1{
     width:100%;
@@ -84,9 +84,11 @@ html, body{
     margin-left:2%;
 }
 #skillsDivContainer{
-    height:79%;
+    height:85%;
     width:100%;
     border: 1px solid white;
+    background-color: yellow;
+    position:relative;
 }
 #projectsDiv{
     position: absolute;
@@ -101,31 +103,60 @@ html, body{
 }
 .scrolling-wrapper{
     overflow-x: scroll;
-    overflow-y: hidden;
     white-space: nowrap;
+    overflow-y: hidden;
+    height: 100%;
     scroll-snap-type: x mandatory;
+    background-color:green;
 }
 .scrolling-wrapper::-webkit-scrollbar{
     display:none;
 }
 .card{
     width:100%;
+    display:inline-block;
     height:100%;
+    top:1%;
     text-align: center;
     display: inline-block;
     scroll-snap-align: start;
     font-family: 'Montserrat', sans-serif;
     font-size:1.25vw;
+    background-color: black;
 }
 .cardContainer{
     width:100%;
-    height:60%;
+    height:100%;
     border-top: 1px solid white;
+    background-color: black;
+    display:inline-block;
+    max-height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .cardContainerText{
+    float: top;
     color:white;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 200;
     font-size: 1vw;
     margin-top: 5%;
+    word-wrap: break-word;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height:55%;
+  }
+  .grid-item {
+    justify-content: center;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 1vw;
+    text-align: center;
+  }
+  .microContainer{
+      border: 1px solid white;
+      background-color: aquamarine;
+  }
